@@ -114,5 +114,5 @@ void xpc_crasher(char* service_name) {
 }
 
 void respring(void) {
-    xpc_crasher("com.apple.backboard.TouchDeliveryPolicyServer");
+    xpc_crasher("com.apple.frontboard.systemappservices");
 }
